@@ -1,0 +1,23 @@
+{
+  "name": "node-js-postgresql",
+  "version": "1.0.0",
+  "description": "a simple code snippet to connect to a PosgreSQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-js-postgresql"
+  },
+  "keywords": [
+    "node.js",
+    "postgreSQL"
+  ],
+  "author": "Andres Canavesi",
+  "license": "ISC",
+  "dependencies": {
+    "parse-database-url": "^0.3.0",
+    "pg": "^7.12.1"
+  }
+}
